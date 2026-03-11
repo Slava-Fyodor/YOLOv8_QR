@@ -19,3 +19,20 @@ The goal of the work is to create a reliable and high-performance tool to automa
 *   **Object detection framework:** Ultralytics YOLOv8
 *   **Graphical interface:** PyQt5
 *   **Libraries:** OpenCV, PyTorch, NumPy, and others.
+
+
+
+### To run this project, you need to install PyTorch and the libraries in requirements.txt. After installing the required libraries, run the following command to enter the GUI interface:
+
+`python ./youi/main.py`
+
+1. Model path:
+Select the trained best.pt file, usually located in the runs folder at the root directory.
+
+2. Input path:
+Enter an image, an image folder, or a video as required. The dataset is generally in the datasets folder inside the main directory.
+
+3. Output directory:
+Choose a directory convenient for saving the results.
+
+The project includes sample test data from my previous runs for you to view.
