@@ -1,22 +1,21 @@
-# §ª§ß§ä§Ö§Ý§Ý§Ö§Ü§ä§å§Ñ§Ý§î§ß§Ñ§ñ §ã§Ú§ã§ä§Ö§Þ§Ñ §â§Ñ§ã§á§à§Ù§ß§Ñ§Ó§Ñ§ß§Ú§ñ QR-§Ü§à§Õ§à§Ó §ß§Ñ §à§ã§ß§à§Ó§Ö §Þ§à§Õ§Ö§Ý§Ú YOLOv8 §ã §Ô§â§Ñ§æ§Ú§é§Ö§ã§Ü§Ú§Þ §Ú§ß§ä§Ö§â§æ§Ö§Û§ã§à§Þ
+# Intelligent QR Code Recognition System Based on YOLOv8 with a Graphical Interface
 
-## §°§á§Ú§ã§Ñ§ß§Ú§Ö §á§â§à§Ö§Ü§ä§Ñ
+## Project Description
 
-§¥§Ñ§ß§ß§í§Û §á§â§à§Ö§Ü§ä §á§â§Ö§Õ§ã§ä§Ñ§Ó§Ý§ñ§Ö§ä §ã§à§Ò§à§Û §â§Ñ§Ù§â§Ñ§Ò§à§ä§Ü§å §Ú§ß§ä§Ö§Ý§Ý§Ö§Ü§ä§å§Ñ§Ý§î§ß§à§Û §ã§Ú§ã§ä§Ö§Þ§í §Õ§Ý§ñ §â§Ñ§ã§á§à§Ù§ß§Ñ§Ó§Ñ§ß§Ú§ñ QR-§Ü§à§Õ§à§Ó, §Ú§ã§á§à§Ý§î§Ù§å§ð§ë§å§ð §á§Ö§â§Ö§Õ§à§Ó§å§ð §Þ§à§Õ§Ö§Ý§î §à§Ò§ì§Ö§Ü§ä§ß§à§Ô§à §Õ§Ö§ä§Ö§Ü§ä§Ú§â§à§Ó§Ñ§ß§Ú§ñ YOLOv8. §³§Ú§ã§ä§Ö§Þ§Ñ §à§ã§ß§Ñ§ë§Ö§ß§Ñ §å§Õ§à§Ò§ß§í§Þ §Ô§â§Ñ§æ§Ú§é§Ö§ã§Ü§Ú§Þ §á§à§Ý§î§Ù§à§Ó§Ñ§ä§Ö§Ý§î§ã§Ü§Ú§Þ §Ú§ß§ä§Ö§â§æ§Ö§Û§ã§à§Þ (GUI), §â§Ñ§Ù§â§Ñ§Ò§à§ä§Ñ§ß§ß§í§Þ §ã §Ú§ã§á§à§Ý§î§Ù§à§Ó§Ñ§ß§Ú§Ö§Þ §æ§â§Ö§Û§Þ§Ó§à§â§Ü§Ñ Qt5 (PyQt5), §é§ä§à §á§à§Ù§Ó§à§Ý§ñ§Ö§ä §ï§æ§æ§Ö§Ü§ä§Ú§Ó§ß§à §à§Ò§â§Ñ§Ò§Ñ§ä§í§Ó§Ñ§ä§î §Ú§Ù§à§Ò§â§Ñ§Ø§Ö§ß§Ú§ñ §Ú §Ó§Ú§Õ§Ö§à§á§à§ä§à§Ü§Ú §Õ§Ý§ñ §à§Ò§ß§Ñ§â§å§Ø§Ö§ß§Ú§ñ §Ú §Õ§Ö§Ü§à§Õ§Ú§â§à§Ó§Ñ§ß§Ú§ñ QR-§Ü§à§Õ§à§Ó.
+This project represents the development of an intelligent system for QR code recognition, utilizing the state-of-the-art YOLOv8 object detection model. The system is equipped with a user-friendly graphical user interface (GUI) developed using the Qt5 (PyQt5) framework, allowing efficient processing of images and video streams for detection and decoding of QR codes.
 
-§¸§Ö§Ý§î§ð §â§Ñ§Ò§à§ä§í §ñ§Ó§Ý§ñ§Ö§ä§ã§ñ §ã§à§Ù§Õ§Ñ§ß§Ú§Ö §ß§Ñ§Õ§Ö§Ø§ß§à§Ô§à §Ú §á§â§à§Ú§Ù§Ó§à§Õ§Ú§ä§Ö§Ý§î§ß§à§Ô§à §Ú§ß§ã§ä§â§å§Þ§Ö§ß§ä§Ñ §Õ§Ý§ñ §Ñ§Ó§ä§à§Þ§Ñ§ä§Ú§Ù§Ñ§è§Ú§Ú §á§â§à§è§Ö§ã§ã§Ñ §â§Ñ§ã§á§à§Ù§ß§Ñ§Ó§Ñ§ß§Ú§ñ QR-§Ü§à§Õ§à§Ó, §Ü§à§ä§à§â§í§Û §Þ§à§Ø§Ö§ä §Ò§í§ä§î §á§â§Ú§Þ§Ö§ß§Ö§ß §Ó §â§Ñ§Ù§Ý§Ú§é§ß§í§ç §à§Ò§Ý§Ñ§ã§ä§ñ§ç, §Ó§Ü§Ý§ð§é§Ñ§ñ §Ý§à§Ô§Ú§ã§ä§Ú§Ü§å, §Ú§ß§Ó§Ö§ß§ä§Ñ§â§Ú§Ù§Ñ§è§Ú§ð, §Ù§Õ§â§Ñ§Ó§à§à§ç§â§Ñ§ß§Ö§ß§Ú§Ö §Ú §â§à§Ù§ß§Ú§é§ß§å§ð §ä§à§â§Ô§à§Ó§Ý§ð.
+The goal of the work is to create a reliable and high-performance tool to automate the QR code recognition process, which can be applied in various fields, including logistics, inventory, healthcare, and retail.
 
-## §¬§Ý§ð§é§Ö§Ó§í§Ö §à§ã§à§Ò§Ö§ß§ß§à§ã§ä§Ú
+## Key Features
 
-*   **§£§í§ã§à§Ü§à§ä§à§é§ß§Ñ§ñ §Õ§Ö§ä§Ö§Ü§è§Ú§ñ:** §ª§ã§á§à§Ý§î§Ù§à§Ó§Ñ§ß§Ú§Ö §Þ§à§Õ§Ö§Ý§Ú YOLOv8 §Õ§Ý§ñ §ä§à§é§ß§à§Ô§à §Ú §Ò§í§ã§ä§â§à§Ô§à §à§Ò§ß§Ñ§â§å§Ø§Ö§ß§Ú§ñ QR-§Ü§à§Õ§à§Ó.
-*   **§ª§ß§ä§å§Ú§ä§Ú§Ó§ß§à §á§à§ß§ñ§ä§ß§í§Û GUI:** §¤§â§Ñ§æ§Ú§é§Ö§ã§Ü§Ú§Û §Ú§ß§ä§Ö§â§æ§Ö§Û§ã §Õ§Ý§ñ §Ý§Ö§Ô§Ü§à§Û §Ù§Ñ§Ô§â§å§Ù§Ü§Ú §Ú§Ù§à§Ò§â§Ñ§Ø§Ö§ß§Ú§Û, §à§Ò§â§Ñ§Ò§à§ä§Ü§Ú §Ó§Ú§Õ§Ö§à§æ§Ñ§Û§Ý§à§Ó §Ú §á§à§ä§à§Ü§à§Ó§à§Ô§à §Ó§Ú§Õ§Ö§à §ã §Ü§Ñ§Þ§Ö§â§í.
-*   **§¤§Ú§Ò§Ü§Ú§Ö §ß§Ñ§ã§ä§â§à§Û§Ü§Ú:** §£§à§Ù§Þ§à§Ø§ß§à§ã§ä§î §ß§Ñ§ã§ä§â§à§Û§Ü§Ú §á§Ñ§â§Ñ§Þ§Ö§ä§â§à§Ó §â§Ñ§ã§á§à§Ù§ß§Ñ§Ó§Ñ§ß§Ú§ñ §Ó §â§Ö§Ñ§Ý§î§ß§à§Þ §Ó§â§Ö§Þ§Ö§ß§Ú.
-*   **§°§ä§é§Ö§ä§ß§à§ã§ä§î:** §°§ä§à§Ò§â§Ñ§Ø§Ö§ß§Ú§Ö §â§Ö§Ù§å§Ý§î§ä§Ñ§ä§à§Ó §â§Ñ§ã§á§à§Ù§ß§Ñ§Ó§Ñ§ß§Ú§ñ §Ú §Ü§Ý§ð§é§Ö§Ó§í§ç §Þ§Ö§ä§â§Ú§Ü §á§â§à§Ú§Ù§Ó§à§Õ§Ú§ä§Ö§Ý§î§ß§à§ã§ä§Ú.
+*   **High-precision detection:** Using the YOLOv8 model for accurate and fast QR code detection.
+*   **Intuitive GUI:** A graphical interface for easy loading of images, processing of video files, and streaming video from a camera.
+*   **Flexible settings:** The ability to adjust recognition parameters in real time.
+*   **Reporting:** Display of recognition results and key performance metrics.
 
-## §ª§ã§á§à§Ý§î§Ù§å§Ö§Þ§í§Ö §ä§Ö§ç§ß§à§Ý§à§Ô§Ú§Ú
+## Technologies Used
 
-*   **§Á§Ù§í§Ü §á§â§à§Ô§â§Ñ§Þ§Þ§Ú§â§à§Ó§Ñ§ß§Ú§ñ:** Python
-*   **§¶§â§Ö§Û§Þ§Ó§à§â§Ü §Õ§Ý§ñ §à§Ò§ì§Ö§Ü§ä§ß§à§Ô§à §Õ§Ö§ä§Ö§Ü§ä§Ú§â§à§Ó§Ñ§ß§Ú§ñ:** Ultralytics YOLOv8
-*   **§¤§â§Ñ§æ§Ú§é§Ö§ã§Ü§Ú§Û §Ú§ß§ä§Ö§â§æ§Ö§Û§ã:** PyQt5
-*   **§¢§Ú§Ò§Ý§Ú§à§ä§Ö§Ü§Ú:** OpenCV, PyTorch (§Ú§Ý§Ú TensorFlow, §Ó §Ù§Ñ§Ó§Ú§ã§Ú§Þ§à§ã§ä§Ú §à§ä §Ó§Ö§â§ã§Ú§Ú YOLOv8), NumPy §Ú §Õ§â§å§Ô§Ú§Ö.
-
+*   **Programming language:** Python
+*   **Object detection framework:** Ultralytics YOLOv8
+*   **Graphical interface:** PyQt5
+*   **Libraries:** OpenCV, PyTorch, NumPy, and others.
